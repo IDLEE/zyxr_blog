@@ -52,6 +52,10 @@ a {
 /* ----- RESPONSIVE ----- */
 
 @media screen and (max-width: 1024px) {
+	#nav {
+		background-color: rgba(255, 255, 255, 1)!important;
+		box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1) !important;
+	}
 	.nav-item {
 		display: none;
 	}
