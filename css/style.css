@@ -67,6 +67,12 @@ a {
 	.web-font {
 	margin-bottom: 2rem!important;
 	}
+	.article-date {
+	margin-top: 0.8rem!important;
+	}
+	.article-title {
+	font-size: 1.4rem!important;
+	}
 }
 
 
