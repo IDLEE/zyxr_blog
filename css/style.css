@@ -59,19 +59,37 @@ a {
 		font-size: 2rem!important;
 	}
 	.header-title {
-	margin-top: 2rem!important;
+		margin-top: 2rem!important;
 	}
 	.header-title p {
-	margin-bottom: 2rem!important;
+		margin-bottom: 2rem!important;
 	}
 	.web-font {
-	margin-bottom: 2rem!important;
+		margin-bottom: 2rem!important;
 	}
 	.article-date {
-	margin-top: 0.8rem!important;
+		margin-top: 0.8rem!important;
 	}
 	.article-title {
-	font-size: 1.4rem!important;
+		font-size: 1.4rem!important;
+	}
+	.avatar-img {
+		float: none !important;
+		margin-bottom: 0.4rem !important;
+	}
+	.avatar-intro {
+		margin-left: 0 !important;
+		max-width: none !important;
+	}
+	.author-warp {
+		text-align: center!important;
+	}
+	.article-detail-title {
+		font-size: 1.8rem !important;
+		margin-top: 2rem !important;
+	}
+	.article-detail-date {
+		margin-top: 0.5rem !important;
 	}
 }
 
@@ -285,11 +303,12 @@ body #nav {
 	font-family: 'LanTingHei SC','PingHei';
 }
 .author-warp {
-  width: 900px;
+	padding: 0 1rem;
+  max-width: 900px;
   margin: 0 auto;
   display: block;
-  margin-top: 100px;
-  margin-bottom: 200px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   overflow: hidden;
 }
 .avatar-img {
